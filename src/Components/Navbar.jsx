@@ -158,7 +158,7 @@ export default function Navbar() {
         <Container>
           <Toolbar>
             <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
-              MUI
+              Photo Gallery
             </Typography>
             <StyledIconButton color="inherit" onClick={handleFavoriteClick}>
               <FavoriteIcon />
