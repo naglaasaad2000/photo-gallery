@@ -65,7 +65,6 @@ const createUserDocument = async () => {
     try {
       // Create a document in Firestore with user's UID as document ID
       await setDoc(doc(firestore, 'favorites', user.uid), {
-        // Optionally, you can add additional fields here
       });
 
       console.log('User document created successfully.');
@@ -77,7 +76,6 @@ const createUserDocument = async () => {
   }
 };
 
-// Call the function to create user document when needed
 createUserDocument();
 
   return (
