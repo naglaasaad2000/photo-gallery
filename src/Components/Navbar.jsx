@@ -74,7 +74,9 @@ export default function Navbar() {
       navigate('/signin');
     }
   };
-
+  const handleHomeClick = () => {
+        navigate('/');
+  };
   const menuId = 'primary-search-account-menu';
   const renderMenu = (
     <Menu
@@ -160,6 +162,7 @@ export default function Navbar() {
             <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
               Photo Gallery
             </Typography>
+            <Button color="inherit" onClick={handleHomeClick}>Home</Button>
             <StyledIconButton color="inherit" onClick={handleFavoriteClick}>
               <FavoriteIcon />
             </StyledIconButton>
