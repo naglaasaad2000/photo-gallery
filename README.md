@@ -1,6 +1,6 @@
-# React Project Name
+# React Project (photo gallery)
 
-Welcome to the React Project Name repository! This project is a [brief description of the project].
+Welcome to the photo gallery repository! This project is a gallery of photos.
 
 ## Running the Project Locally
 
